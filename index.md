@@ -14,6 +14,18 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
+```html
+<!-- 使用 embed 标签 -->
+<embed src="/assets/pdf/yourfile.pdf" type="application/pdf" width="100%" height="600px" />
+
+<!-- 或使用 iframe 标签（更灵活） -->
+<iframe src="/assets/pdf/yourfile.pdf" width="100%" height="600px" style="border: none;">
+  您的浏览器不支持嵌入式 PDF，请<a href="/assets/pdf/yourfile.pdf">点击下载</a>。
+</iframe>
+```
+
+
+
 ## Header 2
 
 > This is a blockquote following a header.
