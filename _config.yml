@@ -9,4 +9,4 @@ show_downloads: true
 github_username:  Felixz0798
 google_analytics:
 # 指定要使用的 Jekyll 主题，如果不使用主题，则为空
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
