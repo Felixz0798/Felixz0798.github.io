@@ -1,5 +1,12 @@
-title: Architect theme
-description: Architect is a theme for GitHub Pages.
+# 指定网站的标题
+title: Felixz
+# 指定联系人邮箱地址
+email: your-email@example.com
+# 网站的简要描述
+description: personal blogs
 show_downloads: true
+# github的用户名
+github_username:  Felixz0798
 google_analytics:
+# 指定要使用的 Jekyll 主题，如果不使用主题，则为空
 theme: jekyll-theme-architect
