@@ -39,7 +39,23 @@
         </section>
 
         <aside id="sidebar">
-          
+          <!-- 头像 + ID 信息 -->
+          <div class="profile">
+            <img 
+              src="{{ '/assets/images/avatar.jpg' | relative_url }}" 
+              alt="Your Name" 
+              class="avatar"
+              width="150"
+              height="150"
+            >
+            <h2 class="name">Felixz</h2>
+            <p class="bio">someone.</p>
+            
+            <!-- 社交媒体链接（可选） -->
+            <div class="social-links">
+              <a href="https://github.com/Felixz0798" target="_blank">GitHub</a>
+            </div>
+          </div>
 
           {% if site.github.is_project_page %}
             <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
